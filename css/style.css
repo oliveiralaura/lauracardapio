@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+#body1{
+    background-image: url(../images/ZL7DYKTHEJONJORU4DF54L4HEA.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    
+}
+.header{
+    
+    background-color: #6C802B!important;
+    
+}
+/* .header p{
+    display: flex;
+    width: 50%;
+    height: 50px;
+    align-items: center;
+    justify-content: end;
+} */
+#headerinfo a{
+    text-decoration: none;
+    color: #000;
+}
+
+#main1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    border-radius: 5px;
+    background-color: #ffffff00;
+    position: relative;
+    top: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.refeicao{
+    width: 15%;
+    min-height: 400px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #ECD261;
+
+}
+.dia{
+    width: 100%;
+    height: 46px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo{
+    width: 90%;
+    height: 320px;
+    margin: 5px auto;
+    line-height: 30px;
+    font-size: 18px;
+}
+.conteudo ul{
+    list-style: none;
+}
+.prato{
+    font-weight: bold;
+}
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: #6C802B;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* **************************************************************************************************************************** */
+#headerinfo{
+    width: 100%;
+    height: 50px;
+    background-color: #ECD261;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.nameEmpresa{
+    font-size: 20px;
+    width: 130px;
+    border-right: 1px solid #000;
+}
+#ulNav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    height: 30px;
+    padding: 10px;
+}
+#ulNav li a{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    
+}
+#ulNav li a span{
+    padding: 7px;
+}
+#body2, #body3{
+    background-color: #6C802B;
+    width: 100%;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#main2{
+    width: 80%;
+    height: 600px;
+    background-color: #ECD261;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 80px;
+}
+#main2 .pezao{
+    font-size: 50px;
+}
+#main2 div p span{
+    position: relative;
+    top: 6px;
+}
+#main2 div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 40px;
+}
+.botao{
+    width:  100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #6c802b8c;
+    font-size: 15px;
+}
+.botao span{
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+}
+.botao a{
+    text-decoration: none;
+    color: #000;
+}
+#loc{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.conteudoloc{
+    width: 45%;
+    height: 400px;
+}
+#chama{
+    font-size: 30px!important;
+    display: flex;
+    align-items: center;
+}
+#chama span{
+    font-size: 30px;
+    padding: 7px;
+}
+.sss{
+    border-right: 1px solid #000;
+}
